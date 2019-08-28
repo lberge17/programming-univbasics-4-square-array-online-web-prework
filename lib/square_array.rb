@@ -3,7 +3,7 @@ def square_array(array)
   new_array = []
   
   while array[counter] do
-    new_array.concat(array[counter] * array[counter])
+    array[counter] *= array[counter]
     counter += 1
   end
 end
